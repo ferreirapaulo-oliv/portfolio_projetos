@@ -30,7 +30,7 @@
 								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Introdução</span></a></li>
 								<li><a href="#about" id="about-link"><span class="icon solid fa-user">Sobre mim</span></a></li>
 								<li><a href="#skills" id="skills-link"><span class="icon solid fa-cogs">Habilidades</span></a></li>
-								<!-- <li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Projetos</span></a></li> -->
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Projetos</span></a></li>
 								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contatos</span></a></li>
 							</ul>
 						</nav>
@@ -75,7 +75,7 @@
 					<div class="container">
 
 						<header>
-							<h2>Sobre mim</h2>
+							<h2 style="font-weight: bold; color: #333">Sobre mim</h2>
 						</header>
 
 						<a href="#" class="image featured"><img src="images/eu.png" alt="" /></a>
@@ -90,105 +90,90 @@
 				</section>
 
 				<!-- Skills -->
-					<section id="skills" class="three">
-    					<div class="container">
-
-        				<header>
-            				<h2>Habilidades</h2>
-        				</header>
-
-						<div class="row">
+				<section id="skills" class="three" style="padding: 80px 0;">
+					<div class="container">
+						<header style="text-align: center; margin-bottom: 50px;">
+							<h2 style="font-size: 2rem; font-weight: bold; color: #333333;">Habilidades</h2>
+						</header>
+						<div class="row" style="display: flex; justify-content: space-between;">
 							<!-- Primeira coluna -->
-							<div class="col-6">
-								<!-- Habilidades de Programação -->
-								<div>
-									<h3>Programação e Banco de dados
-									</h3>
-									<ul>
-										<li>SQL Language</li>
-										<!-- Adicione mais habilidades conforme necessário -->
+							<div class="col-6" style="text-align: center;">
+								<!-- Habilidades de Programação e Banco de dados -->
+								<div style="margin-bottom: 30px;">
+									<h3 style="font-size: 1.5rem; font-weight: bold; color: #333;">Linguagens de Programação e Banco de dados</h3>
+									<ul style="list-style: none; padding-left: 0;">
+										<li style="font-size: 1rem; color: #555; margin-bottom: 10px; text-align: left;"><i class="fas fa-database" style="margin-right: 10px;"></i> SQL Language</li>
+										<li style="font-size: 1rem; color: #555; margin-bottom: 10px; text-align: left;"><i class="fab fa-python" style="margin-right: 10px;"></i> Python com foco em análise de dados</li>
+										<li style="font-size: 1rem; color: #555; margin-bottom: 10px; text-align: left;"><i class="fas fa-lightbulb" style="margin-right: 10px;"></i> Pensamento estratégico</li>
+										<li style="font-size: 1rem; color: #555; margin-bottom: 10px; text-align: left;"><i class="fas fa-code-branch" style="margin-right: 10px;"></i> Conceitos de ETL</li>
+										<h3 style="font-size: 1.5rem; font-weight: bold; color: #333;">Visualização de dados</h3>
+										<li style="font-size: 1rem; color: #555; margin-bottom: 10px; text-align: left;"><i class="fas fa-chart-bar" style="margin-right: 10px;"></i> Matplotlib e Seaborn</li>
+										<li style="font-size: 1rem; color: #555; margin-bottom: 10px; text-align: left;"><i class="fas fa-chart-line" style="margin-right: 10px;"></i> Streamlit</li>
 									</ul>
 								</div>
 							</div>
-							
 							<!-- Segunda coluna -->
-							<div class="col-6">
+							<div class="col-6" style="text-align: center;">
 								<!-- Habilidades em Análise de Dados -->
-								<div>
-									<h3>Engenharia de Software
-									</h3>
-									<ul>
-										<li>SQLite3 Database</li>
-										<!-- Adicione mais habilidades conforme necessário -->
+								<div style="margin-bottom: 30px;">
+									<h3 style="font-size: 1.5rem; font-weight: bold; color: #333;">Engenharia de Software</h3>
+									<ul style="list-style: none; padding-left: 0;">
+										<li style="font-size: 1rem; color: #555; margin-bottom: 10px;text-align: left;"><i class="fas fa-database" style="margin-right: 10px;"></i> SQLite3 Database</li>
+										<li style="font-size: 1rem; color: #555; margin-bottom: 10px; text-align: left;"><i class="fab fa-github" style="margin-right: 10px;"></i> Github</li>
+										<li style="font-size: 1rem; color: #555; margin-bottom: 10px; text-align: left;"><i class="fas fa-cloud" style="margin-right: 10px;"></i> Streamlit Cloud</li>
 									</ul>
 								</div>
 							</div>
 						</div>
+					</div>
+				</section>
+				
+				
 						
         
 </section>
 
 
-				<!-- Portfolio 
+				<!-- Portfolio -->
 					<section id="portfolio" class="four">
 						<div class="container">
-
-							<header>
-								<h2>Projetos de ciência de dados</h2>
+							<header >
+								<h2 style=" font-weight: bold;font-weight: bold; color: #333;">Projetos de ciência de dados</h2>
 							</header>
-
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
-
 							<div class="row">
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-										<header>
-											<h3>Ipsum Feugiat</h3>
-										</header>
+								<div class="col-4">
+									<article class="posts" style="text-align: left;">
+										<a href="https://github.com/ferreirapaulo-oliv/fome_zero" class="image featured" style="width: 200px;">
+											<img src="images/fomezero.png" width="50" height="300" style="width: 100%; height: auto;" />
+										</a>
+										<h3 style="font-size: 1.25rem; font-weight: bold;color: #333;;">Desenvolvimento de um Painel Executivo para Marketplace de restaurantes com o Streamlit</h3>
+										<p style="line-height: 1.2; font-size: 1rem;">Nesse projeto, os conceitos de Programação em Python, Manipulação de dados, pensamento estratégico e lógica de negócio, junto com as ferramentas de desenvolvimento web como Streamlit e Github, foram usados para desenvolver um Painel de Controle Executivo com algumas métricas de uma empresa de marketplace de restaurantes.</p>
+										<p style="line-height: 1.2; font-size: 1rem;">O resultado desse final desse projeto foi um painel hospedado em um ambiente Cloud e disponibilizado através do Streamlit.</p>
+										<h4 style="font-size: 1rem; font-weight: bold;">Lista de tecnologias utilizadas:</h4>
+										<div style="column-count: 2; column-gap: 2rem;">
+											<ul style="font-size: 0.9rem;">
+												<li>Python</li>
+												<li>Jupyter Lab</li>
+												<li>Terminal</li>
+											</ul>
+											<ul style="font-size: 0.9rem;">
+												<li>Streamlit</li>
+												<li>Streamlit Cloud</li>
+												<li>Github</li>
+											</ul>
+										</div>
 									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-										<header>
-											<h3>Rhoncus Semper</h3>
-										</header>
-									</article>
+									<a href="https://github.com/ferreirapaulo-oliv/fome_zero" class="button" style="margin-top: -5rem; display: block; font-size: 0.9rem; padding: 0.5rem -1rem;">Saiba Mais</a>
 								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-										<header>
-											<h3>Magna Nullam</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-										<header>
-											<h3>Natoque Vitae</h3>
-										</header>
-									</article>
+								<div class="col-4" style="margin-right: 1rem;">
+									<!-- Adicione o segundo bloco de coluna aqui -->
 								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-										<header>
-											<h3>Dolor Penatibus</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-										<header>
-											<h3>Orci Convallis</h3>
-										</header>
-									</article>
+								<div class="col-4">
+									<!-- Adicione o terceiro bloco de coluna aqui -->
 								</div>
 							</div>
-
 						</div>
-					</section> -->
+					</section>
 				<!--contact-->
 					<section id="contact" class="five">
 						<div class="container">
